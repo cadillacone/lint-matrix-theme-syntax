@@ -1,4 +1,4 @@
-# lint-matrix-theme-syntax theme
+# LintMatrix Theme-Syntax
 
 A short description of your theme.
 
