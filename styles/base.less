@@ -43,6 +43,8 @@ atom-text-editor {
   }
 
   .cursor {
+    border-color: #00FF41;
+    border-width: 4px;
     color: @syntax-cursor-color;
   }
 
@@ -51,6 +53,13 @@ atom-text-editor {
   }
 }
 
+atom-pane {
+  background: #141414;
+}
+
+.tree-view {
+  background-color: black;
+}
 
 // Syntax styles
 
@@ -301,16 +310,27 @@ atom-text-editor {
     }
 
     &.git-line-added {
-        background-color: rgba(0, 255, 65, 0.6);
+        background-color: rgba(	0, 255, 65, .50);
     }
 
     &.git-line-modified {
-        background-color: rgba(255, 255, 98, 0.6);
+        background-color: rgba(255, 255, 0, 0.5);
     }
 
     &.git-line-removed {
-        background-color: rgba(255, 50, 50, 0.6);
+        background-color: rgba(255, 0, 0, 0.5);
     }
+}
+
+.status-added { color: #00FF41; }
+.status-modified { color: #FFFF00; }
+.status-removed { color: #FF0000; }
+
+.github-FilePatchView-line--added {
+    background-color: rgba(0, 253, 56, 0.35);
+}
+.github-FilePatchView-line--deleted {
+    background-color: rgba(209, 59, 46, 0.35);
 }
 
 // Mini editor
