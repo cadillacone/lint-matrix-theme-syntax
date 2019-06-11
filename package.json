@@ -1,13 +1,13 @@
 {
   "name": "lint-matrix-theme-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A short description of your syntax theme",
   "keywords": [
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/atom/lint-matrix-theme-syntax",
+  "repository": "https://github.com/perezjair/lint-matrix-theme-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
